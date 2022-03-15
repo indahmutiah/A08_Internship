@@ -101,6 +101,122 @@
   .nav  #nav-check {
     display: none;
   }
+
+/* Banner */
+.BannerIntro {
+  margin-top: 50px;
+  background-color: #f7fafb;
+  padding: 50px 36px 34px 137px;
+}
+
+.clear {
+  clear: left;
+}
+
+.BannerIntro .txtDescription {
+  float: left;
+  width: 600px;
+  height: 350px;
+  font-weight: 500;
+}
+
+.TitleSection {
+  font-size: 28px;
+  color: #000;
+}
+
+.BannerIntro .txtDescription .DescritptionSection {
+  font-size: 16px;
+  margin: 15px 0px;
+  color: #000;
+}
+
+.BannerIntro img {
+  width: 500px;
+  float: right;
+  border-radius: 50px 0px 0px 50px;
+}
+
+.BannerIntro .btn-wrapper .btn {
+  padding: 18px 24px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 800;
+  width: 180px;
+  transition: 0.8s;
+}
+
+.btn-1 {
+  background-color: white;
+  color: #116963;
+  border: 2px solid #116963;
+  margin-right: 10px;
+}
+
+.btn-2 {
+  background-color: #116963;
+  color: white;
+}
+
+.btn-1:hover {
+  background-color: #116963;
+  color: white;
+}
+.btn-2:hover {
+  background-color: white;
+  color: #116963;
+  border: 2px solid #116963;
+}
+
+/* Section 2 */
+.Section2 {
+  text-align: center;
+  padding: 20px 0 50px;
+}
+
+.Section2 .TitleSection {
+  font-weight: 800;
+  color: #17827b;
+  margin: 20px;
+}
+
+.btmLineTitile {
+  background-color: #73cfc9;
+  height: 7px;
+  width: 100px;
+  border-radius: 30px;
+  margin: -20px auto 20px;
+}
+
+.List {
+  margin: 30px auto;
+  /* padding: auto; */
+  width: 80%;
+  background-color: white;
+  padding: 10px 80px;
+  height: 70px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px #888888;
+}
+
+.List p {
+  float: left;
+  font-size: 20px;
+  font-weight: 0;
+  margin-top: 12px;
+  color: #116963;
+}
+
+.List img {
+  float: right;
+  width: 50px;
+}
+
+.clear {
+  clear: left;
+}
+/* End Banner */
   
   @media (max-width:600px) {
     .nav > .nav-btn {
